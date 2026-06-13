@@ -756,6 +756,16 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
+.tech-logo {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: contain;
+  filter: grayscale(1) brightness(2);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  display: block;
+}
 
 
 
@@ -1879,4 +1889,35 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+/* Certification logo images — rounded edges */
+/* Certification logo images — fixed size + rounded edges */
+.testimonials-avatar-box img[data-testimonials-avatar] {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  object-fit: contain;
+  background: #fff;
+  padding: 4px;
+  flex-shrink: 0;
+}
+
+.modal-avatar-box img[data-modal-img] {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  object-fit: contain;
+  background: #fff;
+  padding: 4px;
+}
+
+/* Tech Stack hover — yellow tint */
+.clients-item a {
+  transition: filter 0.3s ease;
+}
+
+.clients-item a:hover .tech-logo {
+  filter: grayscale(0) sepia(1) saturate(10) hue-rotate(5deg) brightness(1.2);
+  transform: scale(1.15);
 }
