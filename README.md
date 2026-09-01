@@ -10,7 +10,7 @@ A clean, responsive personal portfolio website built with HTML, CSS, and JavaScr
 
 - **About** — Introduction, services, certifications, and tech stack
 - **Resume** — Education, experience, certifications, leadership, and skills
-- **Portfolio** — Projects filterable by category (ML/AI, NLP, Data Analytics)
+- **Portfolio** — Projects filterable by category (ML/AI, NLP, Systems, Data Analytics)
 - **Contact** — Contact form powered by Formspree + Jaipur map
 
 ---
@@ -31,12 +31,23 @@ A clean, responsive personal portfolio website built with HTML, CSS, and JavaScr
 
 ## 📂 Projects Showcased
 
-- 🔹 Hybrid Course Recommendation System
-- 🔹 Reddit Sentiment Analysis System
-- 🔹 Stock Price Prediction System
+**AI / NLP**
+- 🔹 Text-to-SQL with Clarification Engine — LLM-powered natural-language querying with an ambiguity/clarification loop (Groq, FastAPI, Streamlit)
+- 🔹 Resume-AI Personalized Chatbot
 - 🔹 College AI Assistant (Multilingual)
-- 🔹 Retail Superstore Sales Analytics
+- 🔹 Reddit Sentiment Analysis System
+
+**Machine Learning**
+- 🔹 Satellite Image Classification & Enhancement
+- 🔹 Real-Time Driver Drowsiness Detection
+- 🔹 Stock Price Prediction System
+- 🔹 Hybrid Course Recommendation System
+
+**Systems & Data Analytics**
+- 🔹 Distributed Key-Value Store
 - 🔹 In-Memory Search Engine (Java)
+- 🔹 Trade Reconciliation & Exception Reporting
+- 🔹 Retail Superstore Sales Analytics
 
 ---
 
